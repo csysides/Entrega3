@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Indie+Flower&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;  
+   
+}
+.header{
+    height: 80px;
+    width: 100%;
+    padding: 0 50px;
+    box-shadow: rgba (149, 157, 165, 0.2) 0px 8px 24px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(24, 94, 160) ;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 150px;
+    
+
+}
+.cs{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: blue;
+}
+.navbar ul { 
+    display: flex;
+    list-style: none;
+    gap: 100px;
+  
+}
+.header img{
+    height: 90%;
+  
+}
+.logo{
+   box-shadow: 2px 2px 2px 2px rgb(5, 6, 7);
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+main{
+    background: rgb(132, 132, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+}
+#hero{
+    margin-top:15%; 
+    padding: 70px o;
+    margin: 10%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 50%;
+}
+.hero-info h1{
+    font-size: 48px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color: azure;
+}
+.hero-info p{
+    font-size: 14px;
+    width: 70%;
+    color: beige;
+
+}
+.foto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.button{
+    text-decoration: none;
+    border-radius: 5%;
+    background-color: rgb(20, 95, 156);
+    color: black;
+    width: 70px;
+    height: 25px;
+    align-content: center;
+}
+.text{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 10%;
+    padding: 0 10%;
+}
