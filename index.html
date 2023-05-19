@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AT Cecilia Sides</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header">
         <img src="./imagenes/Csy-logo1.png" class="logo" alt="logo-csy">
         <nav class="navbar">
-            <div class="cs">
-             <h1>Cecilia Sides</h1>
-            </div>
+            <label for="toggle-menu"><i class= "fas fa-bars"></i> </label>
+            <input type="checkbox" id="toggle-menu">
         
-            <ul>
+            <ul class="navbar-list">
                 <li><a class="navbar-link" href="#hero"><b>Inicio</b></a></li>
                 <li><a class="navbar-link" href="#abaut"><b>Nosotros</b></a></li> 
                 <li><a class="navbar-link" href="#"><b>Contanto</b></a></li>
@@ -23,22 +23,24 @@
         </nav>
     </header>
     <main>
-        <section id="hero">
+        <hero>
+            <section id="hero">
             <div class="hero-info">
                 <h1>Una nueva forma de Acompañamiento</h1>
-                <p><h2>descubri una manera de incorporarte a tu entorno de una manera mas funcional. Un <span>Acompañamiento</span> a tu medida</p></h2>
+                <p><h2>Descubri una manera de incorporarte a tu entorno de una manera mas funcional. Un <span>Acompañamiento</span> a tu medida</p></h2>
             <button class="button"><b>Más info</b></button>
             </div>
 
             <div class="hero-card">
                 
                 <div class="foto">
-                    <img src="./imagenes/manos.jpg" alt="manos">
+                    <img src="./imagenes/manos.jpg" alt="manos" class="hero-img">
                     <div><b>Siempre Sentirse acompañado</b></div>
                 </div>
             </div>
 
-        </section>
+        </section></hero>
+        
         <section class=" text">
             <p style="font-size: 22px;"><h2>El acompañante terapéutico se encarga de alentar la fuerza de voluntad de sus pacientes, y a partir de ahí encontrar una fuente de energía para salir adelante. El acompañante deberá acercarse a su paciente, conocerlo, sentir empatía por él, en definitiva ser capaz de encontrar la mejor manera de motivar para ayudarle.</h2>
             </p>
@@ -86,8 +88,8 @@
                         <li> 📧 miemailQgmail.com</li>
                         <li>📞 +5492194619912</li>
                       </ul>  
+
                 </div>
-                
                         </section>
            <footer>
             <div>
